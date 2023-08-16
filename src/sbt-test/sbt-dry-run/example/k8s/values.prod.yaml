@@ -1,0 +1,5 @@
+app:
+  env:
+    DB_URL: "vault:test-app/data/application-secrets/prod#DB_URL"
+    DB_USER: "vault:test-app/data/application-secrets/prod#DB_USER"
+    DB_PASSWORD: "vault:test-app/data/application-secrets/prod#DB_PASSWORD"
